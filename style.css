@@ -1,0 +1,103 @@
+/* * hvis du ændrer noget her så sker det
+    for alt i din html */
+* {
+  /* box-sizing: border-box; indsætter din html i
+    kasse elementer */
+  box-sizing: border-box;
+  /* background-color: er måden du vælger baggrundsfarve på*/
+  background-color: #222223;
+}
+
+/* .navigation nac er en klasse der kun ændrer på mit
+    nav tag*/
+.navigation nav {
+  /* text-align: center; centrerer teksten */
+  text-align: center;
+}
+/* denne klasse er også under navigation men den går helt
+  ind til <p> tagget */
+.navigation, nav, ul, li, p {
+  /* display: block; viser elementet i en blok*/
+  display: block;
+  /* color: vælger man tekst farve*/
+  color: #ff4800;
+  /* font-family: vælger man hvilken font man vil bruge*/
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navigation, nav, ul {
+  /* list-style-type: none; fjerner alle dekorationer
+    såsom bulletpoints*/
+  list-style-type: none;
+  /* margin vælger man hvor meget plads der skal være
+    fra dette element til et andet*/
+  margin: 0;
+  /* padding vælger man hvor meget ekstra plads der skal
+    være på hver side af elementet*/
+  padding: 0;
+  /* boder: skaber en kant rundt om elementet*/
+  border: solid 1px;
+  /* border-color: vælger man farve til sin kant*/
+  border-color: #ff4800;
+}
+
+.navigation, nav, ul, li, a {
+  color:white;
+  font-weight: bold;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+li {
+  /* dette viser elementet som en del af linjen */
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+  color: #ff4800;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.ptekst p {
+  color: white;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+}
+
+.foottekst p {
+  color: #ff4800;
+  text-align: center;
+  font-weight: bold;
+}
+
+a:link{
+  /*text-decoration: none; fjerner alle dekorationer
+    fra elementet såsom understregninger på links*/
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  color: #ff4800;
+}
+
+ol {
+  border: solid #ff4800 1px;
+  text-align: center;
+  font-weight:bold;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+img {
+  /* width definerer bredden på et element*/
+  width: 100%;
+  /* Dette er betegnelsen for at at vælge en maximum
+    bredde */
+  max-width: 400px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
